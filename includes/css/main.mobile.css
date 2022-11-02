@@ -1,0 +1,11 @@
+@media (max-width: 990px) {
+    ul.navbar-nav.dot-page.border-top.border-bottom {
+        border-top: 0!important;
+        border-bottom: 0!important;
+    }
+    .infos-bottom-1,
+    .infos-bottom-2 {
+        border-right: 0!important;
+        border-radius: 0!important;
+    }
+}

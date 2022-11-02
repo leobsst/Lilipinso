@@ -1,0 +1,227 @@
+@font-face{
+    font-family: "futura_book";
+    src: url(../fonts/futura_book_font-webfont.woff)format("woff");
+    src: url(../fonts/futura_book_font-webfont.woff2)format("woff2"); 
+    font-weight: bold;
+}
+@font-face{
+    font-family: "futura_medium";
+    src: url(../fonts/futura_medium_bt-webfont.woff)format("woff");
+    src: url(../fonts/futura_medium_bt-webfont.woff2)format("woff2");
+}
+@font-face{
+    font-family: "futura_light";
+    src: url(../fonts/futura-light-webfont.woff)format("woff");
+    src: url(../fonts/futura-light-webfont.woff2)format("woff2");
+}
+@font-face{
+    font-family: "nimbus_sans";
+    src: url(../fonts/nimbus-sans-l.regular-webfont.woff)format("woff");
+    src: url(../fonts/nimbus-sans-l.regular-webfont.woff2)format("woff2");
+}
+@font-face{
+    font-family: "nimbus_regita";
+    src: url(../fonts/nimbusromno9l-regita-webfont.woff)format("woff");
+    src: url(../fonts/nimbusromno9l-regita-webfont.woff2)format("woff2");
+}
+@font-face{
+    font-family: "sofia_regular";
+    src: url(../fonts/sofia_pro_regular-webfont.woff)format("woff");
+    src: url(../fonts/sofia_pro_regular-webfont.woff2)format("woff2");
+}
+@font-face{
+    font-family: "sofia_semibold";
+    src: url(../fonts/sofia_pro_semibold-webfont.woff)format("woff");
+    src: url(../fonts/sofia_pro_semibold-webfont.woff2)format("woff2");
+}
+@font-face{
+    font-family: "sofia_light";
+    src: url(../fonts/sofia-pro-light-webfont.woff)format("woff");
+    src: url(../fonts/sofia-pro-light-webfont.woff2)format("woff2");
+}
+
+html,
+body,
+footer {
+    outline: 0!important;
+}
+
+img.img-flower-banner {
+    max-height: 35em;
+    width: 100%;
+    object-fit: cover;
+}
+
+div.btn-overlay {
+    top: 28%;
+    left: 5%;
+}
+
+a.btn-banner {
+    width: fit-content;
+    height: fit-content;
+}
+
+div.text-overlay {
+    top: 40px;
+}
+
+div.row.col-8.img-banner-bottom {
+    height: 45%;
+    max-height: 550px;
+    margin-left: auto;
+    margin-right: auto;
+}
+a.sm{
+    font-size: 8pt;
+    font-family: "futura_medium";
+}
+.space{
+    margin-bottom: 4rem;
+    font-family: "sofia_semibold";
+    font-style: italic;
+    font-size: 6pt;
+
+}
+.menu{
+    font-size: 10pt;
+    font-family: "sofia_regular";
+}
+
+
+.nav-link {
+    text-decoration: none!important;
+}
+
+nav {
+    z-index: 99;
+}
+
+.navbar-expand-lg .navbar-nav .nav-link {
+    font-weight: bolder;
+    
+}
+
+.active {
+    text-decoration: underline!important;
+}
+
+.current {
+    font-weight: bold!important;
+    color: black!important;
+}
+
+.border-dark {
+    border-top: 2px solid black!important;
+    border-bottom: 2px solid black!important;  
+}
+
+
+.dot-icon {
+    padding-bottom: 6px;
+    padding-top: 6px;
+}
+.h6{
+    font-family: "sofia_light" ;
+    text-transform: uppercase;
+    
+}
+.h1{
+    font-family: "nimbus_regita";
+}
+.smp{
+    font-family: "futura_medium";
+    font-size: 8pt;
+    margin-top: 3rem;
+}
+
+.new-price {
+    font-weight: bold;
+}
+
+.card {
+    background-color: rgba(var(--bs-light-rgb),var(--bs-bg-opacity))!important;
+    border:none!important;
+}
+
+.card img.card-img-top {
+    border-radius: 10px;
+}
+
+.btn-buy {
+    right: 33.5%;
+    top: 55%;
+}
+
+.nav-link {
+    cursor: pointer!important;
+}
+
+ul.navbar-nav.dot-page {
+    flex-direction: row;
+}
+
+div .card-title.push,
+div .card-text.push {
+    width: fit-content;
+}
+
+a.nav-link.link-card {
+    width: 18rem!important;
+}
+.ban2{
+    padding-top: 2rem;
+    width: 250px;
+}
+
+.promo{
+    margin: 2em 0 ;
+    padding: 0.5em 3em;
+    text-align: left;
+    padding-bottom: 0;
+    font-family: "sofia_light";
+}
+
+.container-fluid.footer-nav {
+    margin-left: 0!important;
+    margin-right: 0!important;
+}
+
+.form-conrol {
+    border-radius: 5px!important;
+}
+
+hr {
+    color: black!important;
+    border: none!important;
+    opacity: 1!important;
+    background-color: black!important;
+}
+
+.infos-bottom-1,
+.infos-bottom-2 {
+    border-right: 1px solid rgba(128, 128, 128, 0.486)!important;
+    border-radius: 0!important;
+}
+
+.font-weight-very-bold {
+    font-weight: bolder!important;
+}
+
+.top-btn {
+    color: black!important;
+    background-color: white;
+    width: 32px;
+    height: 32px;
+    border-radius: 32px;
+    text-align: center;
+    position: absolute;
+    padding: 8;
+    cursor: pointer;
+    transition: .3s ease;
+}
+
+.top-btn:hover {
+    transition: .3s ease;
+    transform: scale(1.1);
+}
